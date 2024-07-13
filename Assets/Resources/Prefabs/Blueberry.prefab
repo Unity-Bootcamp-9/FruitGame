@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 1968976864930963945}
   - component: {fileID: 2169864275309220381}
   - component: {fileID: 6844394526160940497}
+  - component: {fileID: 7036995561996166010}
   - component: {fileID: 817050392245934413}
   - component: {fileID: 454382742641750607}
-  - component: {fileID: 3196851295924455306}
+  - component: {fileID: 6886730940391171006}
   m_Layer: 0
   m_Name: Blueberry
   m_TagString: Buleberry
@@ -86,6 +87,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &7036995561996166010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3673868505458029115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 026e8d0cb64076a40bbc4bbf07a1a3cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fruitType: 0
 --- !u!64 &817050392245934413
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -93,7 +107,7 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3673868505458029115}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 4e64da0594fac4744a2e2d27a7b0e618, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -135,16 +149,26 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &3196851295924455306
-MonoBehaviour:
+--- !u!136 &6886730940391171006
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3673868505458029115}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 34c53c79c008ba3409d5a60fba8a4050, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fruitType: 0
+  serializedVersion: 2
+  m_Radius: 0.00037651684
+  m_Height: 0.00102
+  m_Direction: 1
+  m_Center: {x: 4.656613e-10, y: -1.8626453e-10, z: 0.0000072270636}

@@ -61,7 +61,7 @@ public class SwipeDetector : MonoBehaviour
 
     private void SwipeStart(Vector2 position, float time)
     {
-        startPosition = Camera.main.ScreenToWorld(position);
+        startPosition = Camera.main.ScreenToWorldPoint(position);
         StartScreenPosition = position;
         startTime = time;
 
@@ -72,7 +72,7 @@ public class SwipeDetector : MonoBehaviour
     {
         //Debug.Log($"{nameof(SwipeEnd)}, Pos : {position}, Time : {time}");
 
-        endPosition = Camera.main.ScreenToWorld(position);
+        endPosition = Camera.main.ScreenToWorldPoint(position);
         EndScreenPosition = position;
         endTime = time;
         DetectSwipe();

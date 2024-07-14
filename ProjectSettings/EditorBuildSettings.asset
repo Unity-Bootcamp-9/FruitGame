@@ -4,10 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/ARSwipeTest.unity
+    guid: 515f7841605afef4f9e873571bf3fe22
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: aacdd672138ad9c4c970d36447cd6d16, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 0b54de3bed909134e8f43aa52ff139ac, type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: b28b12d4e73918c4f8d43c5f701f99c4, type: 2}
     com.unity.xr.magicleap.magic_leap_settings: {fileID: 11400000, guid: ff702e437f3c12c449b35be434e6fdcd, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 02f0d60daa9a27f4c8081dba27739d1d, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: d517f07fb9d919248915c0f3b57865d6, type: 2}

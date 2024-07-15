@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2f5331eeb8794664382d93d657ec5f4d, type: 3}
+  m_Script: {fileID: 11500000, guid: 2cc8d0afcf162944ea867fb47d1b77bd, type: 3}
   m_Name: Input Action References
   m_EditorClassIdentifier: 
   m_ScreenTap:
@@ -18,101 +18,93 @@ MonoBehaviour:
       m_Name: Screen Tap
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 149e0d58-5918-49f2-b13f-1241ce0b05d6
+      m_Id: 9bae0957-74b0-4c28-ad6a-58ea2bde325a
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: 2983472870711682387, guid: c348712bda248c246b8c49b3db54643f,
-      type: 3}
+    m_Reference: {fileID: 0}
   m_ScreenTapPosition:
     m_UseReference: 1
     m_Action:
       m_Name: Screen Tap Position
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: fcbe3346-7f0f-48fb-b6da-ea05eef7e98a
+      m_Id: 35236e05-54b0-45b7-91c8-b9f620f9066d
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: 3205440069993519957, guid: c348712bda248c246b8c49b3db54643f,
-      type: 3}
+    m_Reference: {fileID: 0}
   m_LeftTriggerPressed:
     m_UseReference: 1
     m_Action:
       m_Name: Left Trigger Pressed
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 03a4c44d-0d02-4dc1-8f5d-8e410d9575d8
+      m_Id: 0565ba25-dfc2-4991-abb9-9d8f8010da65
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: -5982496924579745919, guid: c348712bda248c246b8c49b3db54643f,
-      type: 3}
+    m_Reference: {fileID: -5982496924579745919, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   m_LeftHandPosition:
     m_UseReference: 1
     m_Action:
       m_Name: Left Hand Position
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: ecddcb5f-1290-4204-9471-4c6ff19ee626
+      m_Id: b5a758e8-a328-4b78-ae1f-7e3055b42514
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: -2024308242397127297, guid: c348712bda248c246b8c49b3db54643f,
-      type: 3}
+    m_Reference: {fileID: -2024308242397127297, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   m_LeftHandRotation:
     m_UseReference: 1
     m_Action:
       m_Name: Left Hand Rotation
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 8d9a0282-9823-4cfd-9ad4-b92eb543754e
+      m_Id: 3a083fe4-e534-4c5b-b84c-170740989e86
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: 8248158260566104461, guid: c348712bda248c246b8c49b3db54643f,
-      type: 3}
+    m_Reference: {fileID: 8248158260566104461, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   m_RightTriggerPressed:
     m_UseReference: 1
     m_Action:
       m_Name: Right Trigger Pressed
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 273fbc8b-acce-44ca-bf5d-9ab041b9d2d0
+      m_Id: 4805ed23-7112-4524-a515-f807b84795a4
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: 83097790271614945, guid: c348712bda248c246b8c49b3db54643f,
-      type: 3}
+    m_Reference: {fileID: 83097790271614945, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   m_RightHandPosition:
     m_UseReference: 1
     m_Action:
       m_Name: Right Hand Position
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 67214013-5ada-4943-8247-9b0e05919cc8
+      m_Id: d8d64d31-9e40-42f7-bb64-6aace7f96b6e
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: -3326005586356538449, guid: c348712bda248c246b8c49b3db54643f,
-      type: 3}
+    m_Reference: {fileID: -3326005586356538449, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   m_RightHandRotation:
     m_UseReference: 1
     m_Action:
       m_Name: Right Hand Rotation
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 3f7b32d1-82a7-4df0-9c66-65a6d4db68e7
+      m_Id: fed9953b-e1eb-44e7-9b48-786b97e1c3d4
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: 5101698808175986029, guid: c348712bda248c246b8c49b3db54643f,
-      type: 3}
+    m_Reference: {fileID: 5101698808175986029, guid: c348712bda248c246b8c49b3db54643f, type: 3}

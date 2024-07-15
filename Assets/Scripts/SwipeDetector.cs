@@ -61,7 +61,9 @@ public class SwipeDetector : MonoBehaviour
 
     private void SwipeStart(Vector2 position, float time)
     {
-        startPosition = Camera.main.ScreenToWorldPoint(position);
+        // Start position in world coordinates with a proper z value
+        Vector3 startWorldPosition = Camera.main.ScreenToWorldPoint(new Vector3(position.x, position.y, Camera.main.nearClipPlane));
+        startPosition = new Vector2(startWorldPosition.x, startWorldPosition.y);
         StartScreenPosition = position;
         startTime = time;
 
@@ -70,9 +72,9 @@ public class SwipeDetector : MonoBehaviour
 
     private void SwipeEnd(Vector2 position, float time)
     {
-        //Debug.Log($"{nameof(SwipeEnd)}, Pos : {position}, Time : {time}");
-
-        endPosition = Camera.main.ScreenToWorldPoint(position);
+        // End position in world coordinates with a proper z value
+        Vector3 endWorldPosition = Camera.main.ScreenToWorldPoint(new Vector3(position.x, position.y, Camera.main.nearClipPlane));
+        endPosition = new Vector2(endWorldPosition.x, endWorldPosition.y);
         EndScreenPosition = position;
         endTime = time;
         DetectSwipe();
@@ -93,13 +95,13 @@ public class SwipeDetector : MonoBehaviour
 
             var data = new SwipeData()
             {
-                StartPosition = startPosition,
-                EndPosition = endPosition,
+                StartPosition = new Vector3(startPosition.x, startPosition.y, 0),
+                EndPosition = new Vector3(endPosition.x, endPosition.y, 0),
                 Distance = distance,
                 Direction = direction,
                 Duration = duration,
                 StartScreenPosition = StartScreenPosition,
-                EndScreenPosition = endPosition,
+                EndScreenPosition = EndScreenPosition,
                 ScreenDistance = screenDistance,
                 ScreenDirection = screenDirection
             };
